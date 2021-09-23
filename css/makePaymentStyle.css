@@ -22,16 +22,30 @@ body {
 	font-size: 14px;
 	line-height: 22px;
 	margin: 0;
-	padding: 0;
+	padding-top: 50px;
+	background-color: rgba(0, 0, 0, 0.4);
+	/* filter: blur(5px); */
 }
-
+.overlayHeading {
+	margin-left: 20px;
+	margin-top: -10px;
+	color: var(--dark);
+	font-size: 22px;
+}
 * {
 	box-sizing: border-box;
 }
+
 .container {
+	padding-bottom: 800px;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
+	background-color: var(--white);
+	height: 560px;
+	filter: blur(0);
+	border-radius: 10px;
+	border-color: 1px solid var(--dark);
 }
 .paymentHeading {
 	font-family: Raleway;
@@ -43,6 +57,7 @@ body {
 	text-transform: capitalize;
 	text-align: center;
 	color: var(--blue);
+	padding-top: 60px;
 }
 
 .success {

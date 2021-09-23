@@ -39,7 +39,7 @@ body {
 	height: 65px;
 	font-size: 100px;
 	margin-left: 30px;
-	margin-top: -80px;
+	margin-top: 150px;
 }
 .iconShipping {
 	margin-top: 80px;
@@ -278,4 +278,95 @@ img {
 .prod2 {
 	margin-right: 890px;
 	margin-top: -150px;
+}
+.productImgTextt {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	/* identical to box height */
+
+	color: #22262a;
+	margin-left: 320px;
+	margin-top: -270px;
+	margin-bottom: 270px;
+}
+.checkedStarsss {
+	margin-left: 323px;
+	margin-top: -260px;
+	margin-bottom: 260px;
+}
+.productPricing {
+	margin-right: 630px;
+	margin-top: -390px;
+}
+.reviews {
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #c1c8ce;
+	padding-left: 430px;
+	margin-top: -280px;
+	margin-bottom: 280px;
+}
+.submitReview {
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: var(--blue);
+	padding-left: 500px;
+	margin-top: -296px;
+	margin-bottom: 296px;
+}
+.submitPara {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+
+	color: #262626;
+	padding-left: 320px;
+	margin-top: -240px;
+	margin-bottom: 240px;
+}
+.cartButton {
+	width: 150px;
+	height: 46px;
+	background-color: var(--skyBlue);
+	margin-left: 320px;
+	margin-top: -220px;
+	margin-bottom: 220px;
+}
+.cartBtnText {
+	color: var(--blue);
+	text-align: center;
+	padding: 10px;
+	margin-top: -30px;
+}
+.cartIcon {
+	color: var(--blue);
+	font-size: 22px;
+	padding-top: 10px;
+	padding-left: 3px;
+}
+.heartButton {
+	width: 46px;
+	height: 46px;
+	background-color: var(--skyBlue);
+	margin-left: 490px;
+	margin-top: -265px;
+	margin-bottom: 220px;
+}
+
+.heartIcon {
+	color: var(--blue);
+	font-size: 22px;
+	padding-left: 12px;
+	padding-top: 12px;
 }
