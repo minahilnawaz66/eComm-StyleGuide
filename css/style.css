@@ -1,29 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
 :root {
-	--blue: #40bfff;
-	--pink: #ff4858;
-	--lightBlue: #bcddfe;
-	--greyBlack: #373737;
 	--white: #ffffff;
+	--black: #000000;
+	--dark: #373737;
+	--red: #ff4858;
+	--blue: #40bfff;
+	--skyBlue: #bcddfe;
+}
+
+html {
+	scroll-behavior: smooth;
+	-ms-scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
 }
 
 body {
+	color: #000;
 	font-family: "Poppins", sans-serif;
-	background: #e5e5e5;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
 }
 .container {
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
+
 input {
-	height: 50px;
-	width: 30%;
+	height: 74px;
+	width: 510px;
 	vertical-align: top;
+	padding-left: 10px;
 }
 form {
 	padding: 20px;
 	margin-top: 10px;
 	color: var(--greyBlack);
+	vertical-align: center;
 }
 .message,
 .email,
@@ -37,15 +58,65 @@ textarea:hover {
 
 input:focus,
 textarea:focus {
-	border-color: var(--blue);
 	outline: none !important;
-	box-shadow: 0 0 10px #719ece;
+	box-shadow: 0 0 2px var(--blue);
 }
 input {
-	outline: none !important;
+	outline: none;
 }
 .textarea {
-	height: 200px;
-	width: 30%;
+	height: 223px;
+	width: 510px;
 	padding-top: 30px;
+	padding-left: 10px;
+}
+/* search query */
+.searchQuery {
+	position: absolute;
+	width: 633px;
+	height: 62px;
+	border: solid 2px var(--blue);
+}
+.searchQuery:focus {
+	box-shadow: 0 0 4px var(--blue);
+}
+
+.button {
+	width: 127px;
+	height: 62px;
+	position: relative;
+	background-color: var(--blue);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	margin-left: 520px;
+}
+/* productBar */
+.productBar {
+	position: absolute;
+	width: 1200px;
+	height: 51px;
+	background-color: #b7babd;
+	color: var(--black);
+	padding-left: 550px;
+}
+span {
+	margin-top: 15px;
+	margin-bottom: 0;
+	float: left;
+}
+.productBar span:hover,
+.productBar span:focus {
+	color: var(--blue);
+}
+span::after,
+.container::after {
+	content: "";
+	display: table;
+	width: 100%;
 }

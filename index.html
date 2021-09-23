@@ -15,8 +15,49 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	</head>
 	<body>
-		<form action="index.html" method="GET">
-			<div class="container">
+		<div class="container">
+			<header>
+				<!-- header -->
+				<div class="EN">EN</div>
+				<div class="usd">USD</div>
+				<div class="profileIcon">
+					<i class="fa fa-user"></i>
+				</div>
+				<div class="profile">My Profile</div>
+				<div class="cart">
+					<i class="fa fa-shopping-cart"></i>
+				</div>
+				<div class="items">Items</div>
+				<div class="dollars">0.00$</div>
+				<div class="glass">
+					<i class="fa">&#xf002;</i>
+				</div>
+			</header>
+
+			<div class="divider">
+				<nav>
+					<ul class="menu">
+						<li>
+							<div class="rectangle">
+								<div class="square">
+									<div class="square2"></div>
+								</div>
+							</div>
+						</li>
+
+						<li><a href="#" class="ecom">E-Comm</a></li>
+						<li><a href="#" class="nav-link">HOME</a></li>
+						<li><a href="#" class="nav-link">BAGS</a></li>
+						<li><a href="#" class="nav-link">SNEAKERS</a></li>
+						<li><a href="#" class="nav-link">BELT</a></li>
+						<li><a href="#" class="nav-link">CONTACT</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<form action="index.html" method="GET">
+				<!--Input field-->
+				<h1 class="inputHeading">Input Fields</h1>
 				<div class="name">
 					<label for="name">Full name</label>
 					<br />
@@ -32,7 +73,180 @@
 					<br />
 					<textarea class="textarea" name="Address" placeholder="Type your message"></textarea>
 				</div>
+			</form>
+			<!--search bar-->
+			<h1>Search Bar</h1>
+			<div class="search">
+				<input type="text" class="searchQuery" placeholder="Search query..." />
+				<button class="button">Search</button>
 			</div>
-		</form>
+			<!--Product Bar-->
+			<h1>Product Bar</h1>
+			<div class="productBar"><span>Home</span><span>/</span><span>Hot Deal</span></div>
+			<!-- Filter -->
+			<h1>Filter</h1>
+			<div class="filter">
+				<div class="filterItem">13 Items</div>
+				<div class="filterSortBy">Sort By</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">Name<i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+
+				<div class="dropdown2">
+					<button class="dropbtn">Show 12 <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+				<div class="lines"><i class="fa fa-bars"></i></div>
+			</div>
+			<h1>Aside Components</h1>
+			<div class="asideCom">
+				<table>
+					<tr>
+						<th>Hot Deals</th>
+					</tr>
+					<tr>
+						<td>Nike</td>
+						<td class="aside">2</td>
+					</tr>
+					<tr>
+						<td>Arimax</td>
+						<td class="aside">48</td>
+					</tr>
+					<tr>
+						<td>Nike</td>
+						<td class="aside">14</td>
+					</tr>
+					<tr>
+						<td>Adidas</td>
+						<td class="aside">15</td>
+					</tr>
+					<tr>
+						<td>Vans</td>
+						<td class="aside">23</td>
+					</tr>
+					<tr>
+						<td>Al Stars</td>
+						<td class="aside">1</td>
+					</tr>
+					<tr>
+						<td>Adidas</td>
+						<td class="aside">95</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<table class="asideCom">
+					<tr>
+						<th>BRAND</th>
+					</tr>
+					<tr>
+						<td>Nike</td>
+						<td class="aside">99</td>
+					</tr>
+					<tr>
+						<td>Nike</td>
+						<td class="aside">99</td>
+					</tr>
+					<tr>
+						<td>Adidas</td>
+						<td class="aside">99</td>
+					</tr>
+					<tr>
+						<td>Siemens</td>
+						<td class="aside">99</td>
+					</tr>
+				</table>
+				<div class="more">MORE</div>
+			</div>
+			<h3>COLOR</h3>
+			<div class="color">
+				<div class="colorText">COLOR</div>
+				<span class="colorBlue"></span>
+				<span class="colorRed"></span>
+				<span class="colorBlack"></span>
+				<span class="colorYellow"></span>
+				<span class="colorPink"></span>
+				<span class="colorGray"></span>
+			</div>
+			<h3>PRICE</h3>
+			<table class="priceCom">
+				<tr>
+					<td>PRICES</td>
+				</tr>
+				<tr>
+					<td class="ranger">Ranger</td>
+					<td >$13.99-$25.99</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input class="slideContainer" type="range" min="13.99" max="25.99" value = "50"></td>
+				</tr>
+			
+				</tr>
+			</table>
+			<!-- image over Text -->
+			<h1>Tex Images
+			</h1>
+			<div>
+				<div class=truck><i class='fa fa-truck'></i></div>
+				<div class="shipping">
+				<p class="iconShipping" >FREE SHIPPING</p>
+				<p class="iconPara">Lorem Ipsum is simply<br>
+					 dummy text of the<br>
+					  printing and type setting <br>
+					  industry.</p>
+				</div>
+			</div>
+			<h3>Icon with Image</h3>
+			<div>
+				<div class=truck><i class='fa fa-truck'></i></div>
+				<div class="shipping">
+				<p class="iconShipping" >FREE SHIPPING</p>
+				<p class="iconPara">Lorem Ipsum is simply<br>
+					 dummy text of the<br>
+					  printing and type setting <br>
+					  industry.</p>
+				</div>
+			</div>
+			<!-- method payment input field -->
+			<h1>Payment Input Field</h1>
+			<div class="containerBlock">
+			
+				<h2 class="makePayment">Make Payment</h2>
+			
+			
+                <div id="aside" class="aside">
+                   
+						<input class="firstName" type="text" placeholder="First Name" />
+						<input class ="emailAddress"type="text" placeholder="Email Address" />
+						<p class="methodText">Select Method of Payment</p>
+						<div class="paymentMethod1"> Credit Card or Debit</div>
+						<div class="paymentMethod1"> Paypal</div>
+						<div class="paymentMethod1"> Bank Transfer</div>
+                </div>
+
+                <div id="content" class="content">
+                  
+					<input class="firstName" type="text" placeholder="Last Name" />
+					<textarea class="textareaa" name="Address" placeholder="Address for Delivery"></textarea>
+					<input class ="emailAddress"type="text" placeholder="Mobile Phone" />
+					
+            </div>
+			<div class="paymentButton">
+				<div class="pay">Go to Payment</div>
+			</div>
+		</div>
+		
+		</div>
 	</body>
 </html>
