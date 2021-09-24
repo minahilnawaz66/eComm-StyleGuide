@@ -24,6 +24,7 @@ body {
 	margin: 0;
 	padding-top: 50px;
 	background-color: rgba(0, 0, 0, 0.4);
+
 	/* filter: blur(5px); */
 }
 .overlayHeading {
@@ -92,6 +93,9 @@ body {
 	height: 60px;
 	margin-top: 100px;
 	margin-left: 440px;
+}
+.completeButton:hover {
+	background: #328cdb;
 }
 .completeText {
 	font-family: Nunito;
